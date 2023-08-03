@@ -3,9 +3,9 @@ import eventsData from "./data";
 import { v1 as generateUniqueID } from "uuid";
 // import Attendees from "./Attendees";
 // import Event from "./Components/Event";
-// import Footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import NewEventForm from "./Components/NewEventForm";
+// import NewEventForm from "./Components/NewEventForm";
 
 function App() {
   const [events, setEvents] = useState(eventsData);
