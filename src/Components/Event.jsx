@@ -1,4 +1,8 @@
 export default function Event() {
-  return;
+  return;(
+    <h5>
+        {event.name} {event.eventType}
+                    </h5>
+  )
 }
 

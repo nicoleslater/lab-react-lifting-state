@@ -1,3 +1,8 @@
 export default function Attendees() {
-  return;
+  return;(
+    <button onClick={toggleEventAttendees}>
+    {!showAttendees ? "Show Attendees" : "Hide Attendees"}
+  </button>
+          
+  )
 }

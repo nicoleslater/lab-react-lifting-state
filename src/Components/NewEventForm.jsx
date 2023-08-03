@@ -1,4 +1,9 @@
+import  useState  from 'react';
+
+
+
 export default function NewEventForm({ handleAddEvent }) {
+  const [events, setEvents] = useState(eventsData);
   return; (
   <div className="new-event">
   <>
