@@ -1,5 +1,6 @@
 export default function Footer() {
-  return;
+  return; (
+    <div> 
   <footer>
           <ul>
             <li>Contact</li>
@@ -7,4 +8,6 @@ export default function Footer() {
             <li>Legal</li>
           </ul>
         </footer>
+        </div>
+        )
 }
