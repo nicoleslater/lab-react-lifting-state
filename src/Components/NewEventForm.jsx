@@ -1,10 +1,10 @@
-import  useState  from 'react';
+
 
 
 
 export default function NewEventForm({ handleAddEvent }) {
-  const [events, setEvents] = useState(eventsData);
-  return; (
+  
+  return (
   <div className="new-event">
   <>
     <form onSubmit={handleSubmit}>
